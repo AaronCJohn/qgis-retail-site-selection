@@ -1,6 +1,6 @@
 # Retail Site Selection (QGIS)
 
-![Final Map](final_map.png)
+![Final Map](Layout 1.png)
 
 ## Overview
 This project uses QGIS to identify optimal retail locations in Chicago based on population density and competitor proximity.
