@@ -1,22 +1,23 @@
 # Retail Site Selection (QGIS)
 
-![Final Map](Layout 1.png)
+![Final Map](final_layout.png)
+
 
 ## Overview
-This project uses QGIS to identify optimal retail locations in Chicago based on population density and competitor proximity.
+This project uses QGIS to identify optimal new retail locations in Chicago based on population distribution and existing Starbucks store locations.
 
 ## Methodology
-- Joined U.S. Census tract data (population) to geographic boundaries
-- Visualized population using graduated choropleth mapping
-- Mapped existing competitor locations
-- Applied spatial buffering to model competitor coverage areas
-- Identified underserved regions with high population and low competition
+- Integrated U.S. Census tract data (population) with geographic boundaries
+- Visualized population density using graduated choropleth mapping
+- Mapped existing Starbucks locations as competitor sites
+- Applied spatial buffering to model areas of existing market coverage
+- Identified regions with high population and lower Starbucks presence
 
 ## Results
-Proposed sites are located in areas with strong population presence but reduced competitor coverage, primarily west and southwest of the dense downtown/eastern cluster.
+Proposed site locations are concentrated in western and southwestern Chicago, where population density remains high but Starbucks coverage is less saturated compared to the dense eastern/downtown cluster.
 
 ## Key Insight
-High competition is concentrated in eastern Chicago, while several high-population tracts in western regions remain underserved, presenting strong opportunities for new retail locations.
+Starbucks locations are heavily clustered in eastern Chicago, creating overlapping coverage areas. In contrast, several high-population tracts in western regions show limited coverage, indicating strong potential for expansion.
 
 ## Tools
 - QGIS
